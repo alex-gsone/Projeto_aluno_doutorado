@@ -6,7 +6,7 @@
 # No python 2 retire list(), mas deixe seu argumento.
 
 y = list(map(str.split, open('eixo_x.dat'))) ; f = open ('dados2y.txt', 'w')
-p = open ('dadoskkk.txt', 'w')
+p = open ('dados.txt', 'w')
 frase = "optimization completed"; frase2 = "Distance matrix (angstroms):"; k=0
 nome_arquivo=["fd000.log", 'fd005.log', 'fd010.log', 'fd015.log', 'fd020.log', 'fd025.log', 
             'fd030.log', 'fd035.log', 'fd040.log', 'fd045.log', 'fd050.log', 'fd055.log', 'fd060.log', 
